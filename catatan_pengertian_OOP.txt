@@ -1,0 +1,45 @@
+class adalah mesin cetak
+
+object adalah hasil dari cetakan nya class
+
+property adalah data data yang terdapat di dalam class
+
+method adalah aksi yang dapat dilakukan oleh class
+
+=====================================
+contoh class siswa
+property : nis,nama,jk,ttl,alamat
+method : belajar, presensi, ujian
+
+======================================
+syntax class :
+<?php
+class nama_class {
+// property dan method akan ditulis di dalam sini
+}
+?>
+=======================================
+syntax object :
+$obj = new nama_class()
+
+=======================================
+
+syntax property dan method :
+
+<?php
+class motor {
+// property
+var $warna;
+var $merk;
+var $kapasitas;
+// method
+function maju(){
+// isi method
+}
+function mundur(){
+// isi method
+}
+}
+?>
+
+========================================
